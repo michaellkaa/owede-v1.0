@@ -12,6 +12,7 @@ body {
 .navigace {
     position: relative;
     top: 0;
+    user-select: none;
 }
 
 .link-nav {
