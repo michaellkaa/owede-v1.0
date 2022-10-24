@@ -41,7 +41,17 @@ body {
     filter: brightness(50%);
 }
 
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+th, td{
+    border:2px solid var(--second-color);
+    color: var(--second-color);
+    padding: 8px;
+}
 
 
 
