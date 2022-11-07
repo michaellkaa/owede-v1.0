@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--first-color);
+    padding: 0%;
+    margin: 0%;
+    font-family: var(--first-font);
+}
+
+.navigace {
+    position: relative;
+    top: 0;
+    user-select: none;
+}
+
+.link-nav {
+    position: fixed;
+    top: 25px;
+    padding-top: 25px;
+    padding-left: 18px; 
+    right: 20px;
+}
+
+#naseprace {
+    color: var(--third-color);
+    filter: brightness(50%);
+}
+
+.navigace a {
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px 0 15px;
+    transition: 0.5s;
+}
+
+.navigace a:hover {
+    color: var(--third-color);
+    filter: brightness(50%);
+}
+
+.web h1 {
+    color: var(--second-color);
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
+.kontakt {
+    display: block;
+    text-align: center;
+    margin: 200px 0 0 0;
+    color: var(--second-color);
+}
+
+.kontakt h2 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.kontakt a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--second-color);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.kontakt a:hover {
+    color: var(--third-color);
+}
+
+.footer {
+    height: 130px;
+    width: 100%;
+    background-color: var(--fourth-color);
+    margin-top: 100px;
+}
